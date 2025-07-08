@@ -23,7 +23,7 @@ imagine a no AI, no telemetry, no ads, free, open-source, no BS password manager
 # How To Install
 to be written
 
-# Pur Focus
+# Our Focus
 1. privacy. anything even semi-instrusive is opt in.
 2. security. we actively encourage that you go into the config.ini and modify the settings.
 3. user friendliness. this is the least of our concerns. we want it to be easy to use, but if that means sacrificing security or privacy, we won't do it.
