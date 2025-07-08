@@ -6,17 +6,19 @@ imagine a no AI, no telemetry, no ads, free, open-source, no BS password manager
 ## features
 > *Note: The text in the parentheses is the current status of said feature.*
 
-- cross-system (Finished)
-- configurable one-way encryption (Finished)
-- master key based decryption (Finished)
-- supports multiple master keys (Not Started)
-- open-source (Finished)
-- fully offline (Finished)
-- RegEx based password generation (Finished)
-- *by a fellow paranoid computer nerd* (Finished)
+- cross-system *(windows, linux, and mac)*
+- configurable one-way encryption *(not very configurable at the moment)*
+- master key based decryption
+- open-source
+- fully offline *(any online features are opt-in)*
+- RegEx based password generation
+- *by a fellow paranoid computer nerd*
 
 ### it's *your* password manager. everything after this is opt-in
-- on login [HIBP](https://haveibeenpwned.com/) detection (Not Started)
+- on login [HIBP](https://haveibeenpwned.com/) detection *(i haven't even started this yet)*
+
+### not quite finished features
+- multiple master keys *(nor have i started this)*
 
 # How To Install
 to be written
@@ -26,7 +28,7 @@ to be written
 2. security. we actively encourage that you go into the config.ini and modify the settings.
 3. user friendliness. this is the least of our concerns. we want it to be easy to use, but if that means sacrificing security or privacy, we won't do it.
 
-idk why i said "we" if this is a one man team.
+when i say *we* i mean *me* because atm it's an indie project.
 
 ## we got everything you need — even a link to buy a bagel
 [here](https://www.hero.co/products/everything-bagel/)
