@@ -7,7 +7,7 @@ imagine a no AI, no telemetry, no ads, free, open-source, no BS password manager
 > *Note: The text in the parentheses is the current status of said feature.*
 
 - cross-system (Finished)
-- configurable one-way encryption (In Progress)
+- configurable one-way encryption (Finished)
 - master key based decryption (Finished)
 - supports multiple master keys (Not Started)
 - open-source (Finished)
