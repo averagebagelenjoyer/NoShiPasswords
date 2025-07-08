@@ -10,7 +10,8 @@ go to the [wiki](https://github.com/averagebagelenjoyer/NoShiPasswords/wiki/How-
 ## features
 > *Note: The text in the parentheses is the current status of said feature.*
 
-- cross-system *(windows, linux, and mac)*
+- cross-system *(Windows, Linux, and MacOS)*
+  - it has currently only been tested on Windows
 - configurable one-way encryption *(not very configurable at the moment)*
 - master password based decryption
 - open-source
