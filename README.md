@@ -5,6 +5,8 @@ imagine a no AI, no telemetry, no ads, free, open-source, no BS password manager
 
 go to the [wiki](https://github.com/averagebagelenjoyer/NSP/wiki/How-To-Use) to learn out to use NoShiPasswords.
 
+> *Note: I am definitely not the greatest at programming, and this project definitely has some spaghetti code. I would like to say this is work in progress, and hopefully will be imrpoved over time.*
+
 ## features
 > *Note: The text in the parentheses is the current status of said feature.*
 
