@@ -4,7 +4,9 @@
 
 Either contact me at averagebagelenjoyer@proton.me or go to:
 
+```
 Security → Advisories → New draft security advisory
+```
 
 > Assuming I set it up correctly that is.
 
