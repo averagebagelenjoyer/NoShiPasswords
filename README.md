@@ -19,8 +19,7 @@ go to the [wiki](https://github.com/averagebagelenjoyer/NoShiPasswords/wiki/How-
 - RegEx based password generation
 - *by a fellow paranoid computer nerd*
 
-### it's *your* password manager. everything after this is opt-in
-- on login [HIBP](https://haveibeenpwned.com/) detection *(i haven't even started this yet)*
+<!-- ### it's *your* password manager. everything after this is opt-in (this is commented because rn there isn't anything in this section) -->
 
 ### not quite finished features
 - multiple master passwords *(nor have i started this)*
