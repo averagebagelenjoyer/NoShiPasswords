@@ -34,3 +34,6 @@ when i say *we* i mean *me* because atm it's an indie project.
 
 ## we got everything you need — even a link to buy a bagel
 [here](https://www.hero.co/products/everything-bagel/)
+
+# Let's be real.
+People will try to rip me off. This is the original repository. I am the original creator. `averagebagelenjoyer` is my name, and always will be. If you are reading this right now, you have found the original, you are in the right place.
