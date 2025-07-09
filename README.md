@@ -23,6 +23,7 @@ go to the [wiki](https://github.com/averagebagelenjoyer/NoShiPasswords/wiki/How-
 
 ### not quite finished features
 - multiple master passwords *(not started)*
+- TOTP *(almost done)*
 
 # Our Focus
 1. privacy. anything even semi-instrusive is opt in.
