@@ -3,10 +3,35 @@
 import os
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
+import argparse # required for command line and GUI
+import sys
 import json
 import configparser # important for the memes
 from pwinput import pwinput # it's like `getpass` but better
 import _passwordlib as passwordLib # internal password lib which i only barely understand
+
+parser = argparse.ArgumentParser(description="Example: greet user with optional shout")
+parser.add_argument("-c", "--commandLine", action="store_true", help="This must be set if used in the command line")
+parser.add_argument("-F", "--file", help="Database name")
+parser.add_argument("-M", "--master", help="Master password")
+parser.add_argument("-P", "--passwords", help="Passwords dictionary")
+
+args = parser.parse_args()
+
+if args.commandLine:
+    if os.path.exists(args.name):
+        print("path occupied", sys.stderr)
+        sys.exit(2)
+
+    encrypted, salt = passwordLib.encrypt(args.master, json.dumps(args.passwords))
+    wrapper = {
+        "salt": salt,
+        "data": encrypted
+    }
+    with open(args.file, "w") as f:
+        json.dump(wrapper, f, indent=4)
+    print(f"\n\nSuccessfully created `{args.file}`.")
+    sys.exit(0)
 
 # uh- ok this feature is genuinely just a joke
 config = configparser.ConfigParser()
