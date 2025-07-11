@@ -3,7 +3,7 @@ imagine a no AI, no telemetry, no ads, free, open-source, no BS password manager
 
 **you're welcome.**
 
-go to the [wiki](https://github.com/averagebagelenjoyer/NoShiPasswords/wiki/How-To-Use) to learn out to use NoShiPasswords.
+go to the [wiki](https://github.com/averagebagelenjoyer/NoShiPasswords/wiki/User-Guide) to learn out to use NoShiPasswords.
 
 > *Note: I am definitely not the greatest at programming, and this project definitely has some spaghetti code. I would like to say this is work in progress, and hopefully will be imrpoved over time.*
 
