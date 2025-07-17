@@ -31,7 +31,7 @@ while True:
         break
     else:
         if args.simple:
-            print("invalid path", sys.stderr)
+            print("invalid path", file=sys.stderr)
             sys.exit(2)
         print("ERROR: Invalid path")
 
@@ -50,7 +50,7 @@ while True:
         break
     except Exception as e:
         if args.simple:
-            print("invalid passwd", sys.stderr)
+            print("invalid passwd", file=sys.stderr)
             sys.exit(2)
         print("ERROR: Failed to decrypt most likely due to incorrect password")
 
