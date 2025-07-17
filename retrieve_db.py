@@ -44,7 +44,7 @@ encrypted_data = passwords["data"]
 
 # this gets your master password
 while True:
-    master = pwinput("1" if args.simple else "Master Password: ")
+    master = input("1") if args.simple else pwinput("Master Password: ")
     try:
         decrypted_passwords = json.loads(passwordLib.decrypt(master, encrypted_data, salt))
         break
