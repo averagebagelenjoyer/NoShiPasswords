@@ -32,5 +32,9 @@ try:
                 print(rstr.xeger(regex))
         except re.PatternError:
             print("ERROR: Invalid RegEx")
+        except ValueError:
+            print("ERROR: Too long")
+        except OverflowError:
+            print("ERROR: Way too long")
 except KeyboardInterrupt:
     pass
