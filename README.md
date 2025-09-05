@@ -22,9 +22,6 @@ go to the [wiki](https://github.com/averagebagelenjoyer/NoShiPasswords/wiki/User
 
 <!-- ### it's *your* password manager. everything after this is opt-in (this is commented because rn there isn't anything in this section) -->
 
-### not quite finished features
-- multiple master passwords *(not started)*
-
 # Our Focus
 1. privacy. anything even semi-instrusive is opt in.
 2. security. we actively encourage that you go into the config.ini and modify the settings.
